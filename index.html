@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Счётчик</title>
+  <link rel="shortcut icon" href="favicon.png">
+  <meta name="theme-color" content="#007F0E">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/icon.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body class="grey lighten-4">
+  <nav class="green">
+    <div class="nav-wrapper">
+      <span class="hide-on-med-and-down">&nbsp&nbsp&nbsp</span>
+      <a href="index.html" id="logo-text" class="brand-logo">Счётчик</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row center-align" style="margin-top:55px;">
+      <div class="col s12 m12 l12">
+        <h1 id="counter_num" class="green-text" style="font-weight:bold;">0</h1>
+      </div>
+    </div>
+    <div class="row center-align" style="margin-top:100px;">
+      <div class="col s12 m12 l12">
+        <button type="button" class="btn waves-effect waves-light green white-text" style="width:160px;height:160px;border-radius:80px;" id="plus"><i class="material-icons large white-text">add</i></button>
+      </div>
+    </div>
+    <div class="row center-align">
+      <div class="col s12 m12 l12">
+        <a href="#!" id="reset_but" class="grey-text" style="font-size:24px;">Сбросить</a>
+      </div>
+    </div>
+  </div>
+
+  <audio src="tap.mp3" preload="auto" id="tap_sound">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/stepigor_lib.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
